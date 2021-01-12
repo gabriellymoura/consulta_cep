@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,input{
+    font-family: 'Lato', sans-serif;
+}
+input[type=text] {
+    background-color: #648a83f8;
+    color: white;
+    font-size: 20px;
+  }
+
+.container{
+    background: linear-gradient(-45deg, #4C7A72,#23493F);
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    
+}
+
+.title{
+    color: #2DAF36;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.5s ease-in-out;
+    margin-bottom: 2%;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+.form-control-cep{
+    border: 1px solid;
+    border-radius: 7px;
+    box-sizing: border-box;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    grid-template-columns: 15% 85%;
+}
+
+.form-control{
+    border: 1px solid;
+    border-radius: 7px;
+    box-sizing: border-box;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    pointer-events:none;
+    outline:none;
+
+}
+.forms-container{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: #51D15B;
+    margin-left: 25%;
+    font-size: 25px;
+
+}
+.imagem{
+    position: absolute;
+    width: 50%;
+    margin-top: -35%;
+    margin-left: 50%;
+    
+}
